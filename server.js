@@ -625,7 +625,7 @@ const processAccessCode = async (socket, msg) => {
 
     } else {  /// Testing locally
         socket.accountID = "discord-12356789"
-        socket.discord = { username: "SnuffysasaTest#1234" }
+        socket.discord = { username: "Test#1234" }
     }
 
 
