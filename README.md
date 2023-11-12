@@ -11,5 +11,8 @@ This is the server code for sm64js-mmo
 ## Development
 So to start make a client folder for the assets then type`
 yarn run build:rust
-##For development Do
-yarn run build:dev`
+`
+## For development do
+`
+yarn run build:dev
+`
