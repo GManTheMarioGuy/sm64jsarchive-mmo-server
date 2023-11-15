@@ -623,7 +623,7 @@ const processAccessCode = async (socket, msg) => {
             return rejectAuthorization(socket, 2, "Unknown Account Type")
         }
 
-    } else {  /// Testing locally
+    } else {  /// Testing locally /// Mainly for HTTP localhost or local file testing
         socket.accountID = "discord-12356789"
         socket.discord = { username: "Test#1234" }
     }
